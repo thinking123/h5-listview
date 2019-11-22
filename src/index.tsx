@@ -2,8 +2,8 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 
 import { Hello } from "./Hello";
-
+import {RecycleTestComponent } from './ListViewSample'
 ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React" />,
+    <RecycleTestComponent />,
     document.getElementById("root")
 );
